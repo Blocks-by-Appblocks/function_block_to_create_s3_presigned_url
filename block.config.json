@@ -1,0 +1,13 @@
+{
+  "name": "function_block_to_create_s3_presigned_url",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Blocks-by-Appblocks/function_block_to_create_s3_presigned_url",
+    "ssh": "git@github.com:Blocks-by-Appblocks/function_block_to_create_s3_presigned_url.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": true
+}
